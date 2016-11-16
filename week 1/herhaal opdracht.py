@@ -79,3 +79,18 @@
 # f.close()
 #
 # 12
+
+vraag = input("geef een nummer: ")
+
+def devraag(vraag):
+    try:
+        vraag_cijfer = int(vraag)
+        if vraag_cijfer < 10:
+            print("het is getal ligt onder de 10.", vraag)
+        elif vraag_cijfer < 20:
+            print("hij ligt tussen de 10 en 20.", vraag)
+        else:
+            print("het cijfer light boven de 20", vraag)
+    except:
+        print("sorry het is geen goed cijfer")
+devraag(vraag)
