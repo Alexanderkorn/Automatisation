@@ -70,10 +70,12 @@
 #     print(i)
 #
 # textopen.close()
-fname = 'readme text.txt'
-if (fname):
-    print("Found file '{}'".format(fname))
-    with open(fname, 'r') as f:
-        for line in f:
-            print (line)
-
+# fname = 'readme text.txt'
+# if (fname):
+#     print("Found file '{}'".format(fname))
+#     with open(fname, 'r') as f:
+#         for line in f:
+#             print (line, end="")
+# f.close()
+#
+# 12
