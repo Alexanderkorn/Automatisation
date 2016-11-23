@@ -1,19 +1,15 @@
 
-password = input("hier uw password:")
+fileopen = open("password.txt", "r")
+filewrite = open("password.txt", "a")
+password = input()
 
-fname = 'password.txt'
-try:
-    try:
-        if (fname):
-            print("Found file '{}'".format(fname))
-            with open(fname, 'r') as f:
-                for line in f:
-                    print (line, end="")
-            f.close()
-        else:
-            print("no file found")
+for line in fileopen:
+    if password in line:
+        print("Wachtwoord OK")
+    else:
+        print("Wachtwoord FOUT")
+        filewrite.write('\n')
+        filewrite.write(password)
 
-    except:
-        print("sorry er is iets verkeerd gegaan.")
-except:
-    print()
+fileopen.close()
+filewrite.close()
