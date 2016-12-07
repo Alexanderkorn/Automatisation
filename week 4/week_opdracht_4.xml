@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computers id="computers">
+    <type>Servers</type>
+    <servers>
+        <server id="1">
+            <title>W12-01</title>
+            <ipaddress>192.168.178.10</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <harddisks_2>D</harddisks_2>
+            <harddisks_3>E</harddisks_3>
+            <OS>Windows server 2012</OS>
+        </server>
+        <server id="2">
+            <title>W12-02</title>
+            <ipaddress>192.168.178.11</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <harddisks_2>D</harddisks_2>
+            <harddisks_3>E</harddisks_3>
+            <OS>Windows server 2012</OS>
+        </server>
+    </servers>
+    <type>Computers</type>
+    <computers>
+        <client id="1">
+            <title>Win7-01</title>
+            <ipaddress>192.168.178.100</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <OS>Windows 7</OS>
+        </client>
+        <client id="2">
+            <title>Win10-01</title>
+            <ipaddress>192.168.178.101</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <OS>Windows 10</OS>
+        </client>
+        <client id="3">
+            <title>Win10-02</title>
+            <ipaddress>192.168.178.102</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <OS>Windows 10</OS>
+        </client>
+        <client id="4">
+            <title>Win10-03</title>
+            <ipaddress>192.168.178.103</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <OS>Windows 10</OS>
+        </client>
+        <client id="5">
+            <title>Win10-04</title>
+            <ipaddress>192.168.178.104</ipaddress>
+            <harddisks_1>C</harddisks_1>
+            <OS>Windows 10</OS>
+        </client>
+    </computers>
+</computers>
