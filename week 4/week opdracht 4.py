@@ -22,3 +22,4 @@ for client in clients:
     print("Server ipaddress is:", client.find('ipaddress').text)
     print("Server harddisks:", client.find('harddisks_1').text)
     print("Server OS:", client.find('OS').text)
+
