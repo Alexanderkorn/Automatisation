@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+	<body>
+		interface Ethernet0<!-- Herman’s network: "<Games & Other stuff>" -->
+			nameif test
+		ip address 10.10.88.50 255.255.255.254
+		!
+		interface Ethernet1
+			nameif inside
+		ip address 10.86.194.176 255.255.254.0
+		!
+		enable password 8Ry2YjIyt7RRXU24 encrypted
+		passwd 2KFQnbNIdI.2KYOU encrypted
+		hostname XXX
+		!
+		policy-map xxx_global_fw_policy
+			class inspection_default
+				inspect dns
+				inspect ftp
+				inspect http
+	<script>
+		<![CDATA[for (c in colors) {
+		var item = $('<div/>').css("background-color",'#'+colors[c]).addClass("colorbox");
+			item.click((function () {
+				var col = colors[c];
+				return function () {
+					currentColor = col;
+			};
+		})());]]>
+	</script>
+	</body>
+</interface>
