@@ -8,6 +8,7 @@
             <harddisks_1>C</harddisks_1>
             <harddisks_2>D</harddisks_2>
             <harddisks_3>E</harddisks_3>
+            <freespace_D>20GB</freespace_D>
             <OS>Windows server 2012</OS>
         </server>
         <server id="2">
