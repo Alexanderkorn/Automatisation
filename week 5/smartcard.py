@@ -24,6 +24,7 @@ class Smartcard():
         else:
             self.geld
 
+
     def __del__(self):
         return
 
